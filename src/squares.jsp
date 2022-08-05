@@ -17,7 +17,7 @@
   <%
     int answer1,answer2,answer3;
     %>
-    <form action="squares-results.jsp">
+    <form action="./resultsPage/squares-results.jsp">
         <h3>Find the squares of all the following numbers : <br></h3>
         <h3>1 = <input type="number" value="answer1" name="answer1"><br></h3>
         <h3>2 = <input type="number" value="answer2" name="answer2"><br></h3>

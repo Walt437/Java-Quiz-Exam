@@ -17,7 +17,7 @@
   <%
     int answer1;
     %>
-    <form action="state-results.jsp">
+    <form action="./resultsPage/state-results.jsp">
 
         <h3>What is the capital city of Alaska = <input type="text" name="answer1"><br></h3>
         <h3>What is the capital city of Georgia = <input type="text" name="answer2"><br></h3>

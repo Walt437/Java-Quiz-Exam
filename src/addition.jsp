@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SUBTRACTION QUIZ</title>
+<title>ADDITION QUIZ</title>
 <style>
     body {
         background-color: #f0f0f0;
@@ -20,7 +20,7 @@
 </style>
 </head>
 <body>
-    <header style="text-align: center">SUBTRACTION QUIZ </header>
+    <header style="text-align: center">ADDITION QUIZ </header>
     <br><br>
   <%
     int answer1,answer2,answer3,answer4;
@@ -34,29 +34,29 @@
     f = rand.nextInt(100);
     g = rand.nextInt(100);
     h = rand.nextInt(100);
-    answer1 = a - b;
-    answer2 = c - d;
-    answer3 = e - f;
-    answer4 = g - h;
+    answer1 = a + b;
+    answer2 = c + d;
+    answer3 = e + f;
+    answer4 = g + h;
     %>
-    <form action="sub-results.jsp">
+    <form action="./resultsPage/addition-results.jsp">
 
-        <h3><%= a %>-<%= b %> = 
+        <h3><%= a %>+<%= b %> = 
             <input type="number" value="answer1" name="answer1">
             <input type="hidden" name="a" value="<%=a%>">
             <input type="hidden" name="b" value="<%=b%>">    
         </h3>
-        <h3><%= c %>-<%= d %> = 
+        <h3><%= c %>+<%= d %> = 
             <input type="number" value="answer2" name="answer2">
             <input type="hidden" name="c" value="<%=c%>">
             <input type="hidden" name="d" value="<%=d%>"> 
         </h3>
-        <h3><%= e %>-<%= f %> = 
+        <h3><%= e %>+<%= f %> = 
             <input type="number" value="answer3" name="answer3">
             <input type="hidden" name="e" value="<%=e%>">
             <input type="hidden" name="f" value="<%=f%>"> 
         </h3>
-        <h3><%= g %>-<%= h %> = 
+        <h3><%= g %>+<%= h %> = 
             <input type="number" value="answer4" name="answer4">
             <input type="hidden" name="g" value="<%=g%>">
             <input type="hidden" name="h" value="<%=h%>"> 
